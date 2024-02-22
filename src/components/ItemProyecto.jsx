@@ -12,7 +12,7 @@ function ItemProyecto({ proyecto }) {
                     className="img-fluid object-fit-cover"
                 />
             </div>
-            <h2 className="display-4 text-center pointer-normal">{name}</h2>
+            <h2 className="display-5 text-center pointer-normal">{name}</h2>
             <div className="mx-auto d-flex gap-3">
                 <a
                     href={repo}
