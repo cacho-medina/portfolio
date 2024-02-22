@@ -6,7 +6,7 @@ function ItemProyecto({ proyecto }) {
     const { name, desc, repo, url, img } = proyecto;
     return (
         <Card className="col-12 col-sm-8 col-md-5 m-1 bg-light-blue px-0 text-grey proyectoContainer">
-            <Card.Img variant="top" src={img} className="card-img" />
+            <Card.Img variant="top" src={img} className="card-img" alt={`imagen proyecto ${name}`}/>
             <Card.Body className="d-flex flex-column justify-content-between align-items-center">
                 <Card.Title className="display-6 text-center pointer-normal">
                     {name}
