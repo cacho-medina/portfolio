@@ -1,0 +1,96 @@
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+body {
+    color: var(--grey) !important;
+    background-color: var(--blue) !important;
+}
+a {
+    color: var(--grey) !important;
+    text-decoration: none !important;
+}
+.grow {
+    flex-grow: 1;
+}
+.text-grey {
+    color: var(--grey) !important;
+}
+.text-orange {
+    color: var(--orange) !important;
+}
+.text-pink {
+    color: var(--pink) !important;
+}
+.text-red {
+    color: var(--red) !important;
+}
+.bg-light-blue {
+    background-color: var(--light-blue) !important;
+}
+.title,
+.subtitle {
+    font-size: 2.25rem;
+}
+
+.about {
+    text-align: justify;
+    font-size: 0.9rem;
+}
+@media (min-width: 850px) {
+    .title {
+        font-size: 72px;
+    }
+    .subtitle {
+        font-size: 40px;
+    }
+    .about {
+        font-size: 1.1rem;
+    }
+}
+.border-pink {
+    border-bottom: 5px solid var(--pink) !important;
+}
+.logo {
+    max-height: 200px;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+.icono {
+    will-change: filter;
+    transition: filter 300ms;
+}
+.icono:hover {
+    filter: drop-shadow(0 0 1.2em var(--grey));
+}
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.pointer-normal {
+    cursor: default;
+}
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.proyecto img {
+    height: 250px;
+}
+.proyectoContainer {
+    border: 1px solid var(--dark-grey);
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
