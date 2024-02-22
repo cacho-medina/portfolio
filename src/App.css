@@ -83,14 +83,17 @@ a {
     }
 }
 
-.proyecto img {
+.card-img {
     height: 250px;
+    object-fit: cover;
 }
 .proyectoContainer {
-    border: 1px solid var(--dark-grey);
-    border-radius: 20px;
+    border: 1px solid var(--dark-grey) !important;
     transition: all 0.5s ease-in-out;
     &:hover {
-        transform: scale(1.05);
+        transform: scale(1.03);
     }
+}
+.desc {
+    font-size: 0.95rem;
 }
