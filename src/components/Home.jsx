@@ -5,14 +5,14 @@ import Proyectos from "./Proyectos";
 function Home() {
     return (
         <Container className="grow">
-            <section className="vh-100 d-flex flex-column justify-content-center align-items-center">
+            <section className="vh-100 d-flex flex-column justify-content-center align-items-center" id="inicio">
                 <p className="text-pink m-0">👋Hola, me llamo</p>
                 <h1 className="m-0 title fw-bold">Joaquin Medina</h1>
                 <h3 className="text-orange m-0 title text-center">
                     Frontend Developer
                 </h3>
             </section>
-            <section className="d-flex flex-column align-items-center">
+            <section className="d-flex flex-column align-items-center" id="about">
                 <h2 className="subtitle d-inline-block border-pink">About</h2>
                 <p className="my-4 about fw-medium px-1">
                     Soy Joaquin Medina, un entusiasta de la programación con una
@@ -34,10 +34,13 @@ function Home() {
                     (Upper Intermediate).
                 </p>
             </section>
-            <section className="d-flex flex-column align-items-center my-2">
+            <section className="d-flex flex-column align-items-center my-2" id="stack">
                 <Habilidades />
             </section>
-            <section className="d-flex flex-column align-items-center my-4">
+            <section
+                className="d-flex flex-column align-items-center my-4"
+                id="proyectos"
+            >
                 <Proyectos />
             </section>
         </Container>

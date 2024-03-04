@@ -11,6 +11,7 @@ a {
     color: var(--grey) !important;
     text-decoration: none !important;
 }
+
 .grow {
     flex-grow: 1;
 }
@@ -38,17 +39,7 @@ a {
     text-align: justify;
     font-size: 0.9rem;
 }
-@media (min-width: 850px) {
-    .title {
-        font-size: 72px;
-    }
-    .subtitle {
-        font-size: 40px;
-    }
-    .about {
-        font-size: 1.1rem;
-    }
-}
+
 .border-pink {
     border-bottom: 5px solid var(--pink) !important;
 }
@@ -89,11 +80,68 @@ a {
 }
 .proyectoContainer {
     border: 1px solid var(--dark-grey) !important;
-    transition: all 0.5s ease-in-out;
-    &:hover {
-        transform: scale(1.03);
-    }
 }
 .desc {
     font-size: 0.95rem;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    padding: 10px 0;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 10 !important;
+}
+
+.nav {
+    background: #0c1f3b;
+    border-radius: 15px;
+    width: 95%;
+    margin: 0 auto;
+    animation: enhance-header linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0 150px;
+}
+
+@media (min-width: 850px) {
+    .title {
+        font-size: 72px;
+    }
+    .subtitle {
+        font-size: 40px;
+    }
+    .about {
+        font-size: 1.1rem;
+    }
+    .nav {
+        width: 40%;
+    }
+}
+
+@keyframes enhance-header {
+    to {
+        background: #22458274;
+        border: none;
+        backdrop-filter: blur(10px);
+    }
+}
+
+#proyectos .cardProyecto {
+    animation: reveal linear both;
+    animation-timeline: view();
+    animation-range: entry 15% cover 40%;
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+        scale: 0.9;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
 }
