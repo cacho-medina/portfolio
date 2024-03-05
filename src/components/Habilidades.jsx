@@ -17,7 +17,7 @@ function Habilidades() {
             <h2 className="subtitle d-inline-block border-pink text-center">
                 Habilidades
             </h2>
-            <div className="row py-2 my-4 justify-content-center">
+            <div className="row py-2 my-4 justify-content-center cardStack">
                 {skill.map((item, index) => (
                     <Skill skill={item} key={index} />
                 ))}
