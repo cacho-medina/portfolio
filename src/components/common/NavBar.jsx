@@ -1,20 +1,37 @@
+import { motion } from "framer-motion";
 function NavBar() {
     return (
         <header className="header">
-            <nav className="nav py-2">
+            <nav className="nav py-3">
                 <ul className="d-flex flex-row align-items-center justify-content-center px-0 my-0 gap-3 gap-lg-4 mx-auto">
-                    <li>
+                    <motion.li
+                        whileHover={{ translateY: -5 }}
+                        whileTap={{ scale: 0.95 }}
+                        className="nav-item"
+                    >
                         <a href="#inicio">Inicio</a>
-                    </li>
-                    <li>
+                    </motion.li>
+                    <motion.li
+                        whileHover={{ translateY: -5 }}
+                        whileTap={{ scale: 0.95 }}
+                        className="nav-item"
+                    >
                         <a href="#about">Sobre mi</a>
-                    </li>
-                    <li>
+                    </motion.li>
+                    <motion.li
+                        whileHover={{ translateY: -5 }}
+                        whileTap={{ scale: 0.95 }}
+                        className="nav-item"
+                    >
                         <a href="#stack">Stack</a>
-                    </li>
-                    <li>
+                    </motion.li>
+                    <motion.li
+                        whileHover={{ translateY: -5 }}
+                        whileTap={{ scale: 0.95 }}
+                        className="nav-item"
+                    >
                         <a href="#proyectos">Proyectos</a>
-                    </li>
+                    </motion.li>
                 </ul>
             </nav>
         </header>

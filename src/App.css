@@ -90,7 +90,6 @@ li {
 }
 
 .header {
-    padding: 10px 0;
     position: sticky !important;
     top: 0 !important;
     z-index: 10 !important;
@@ -98,7 +97,8 @@ li {
 
 .nav {
     background: #0c1f3b;
-    border-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
     width: 95%;
     margin: 0 auto;
     animation: enhance-header linear both;
@@ -126,6 +126,8 @@ li {
         background: #22458274;
         border: none;
         backdrop-filter: blur(10px);
+        transform: translateY(10px);
+        border-radius: 15px;
     }
 }
 
@@ -157,5 +159,15 @@ li {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+.nav-item a {
+    font-size: 16px;
+    color: #ccd6f6be !important;
+    &:hover {
+        color: var(--grey) !important;
+        /* border-bottom: 3px solid var(--orange); */
+        border-bottom: 5px solid var(--pink);
     }
 }
