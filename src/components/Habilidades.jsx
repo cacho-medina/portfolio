@@ -5,11 +5,13 @@ import Js from "../assets/techStack/Js.png";
 import node from "../assets/techStack/node.png";
 import react from "../assets/techStack/react.png";
 import postgres from "../assets/techStack/postgres.png";
-import vite from "../assets/techStack/vite.png";
-import sql from "../assets/techStack/sql.webp";
+//import vite from "../assets/techStack/vite.png";
+//import sql from "../assets/techStack/sql.webp";
+import bootstrap from "../assets/techStack/bootstrap.png";
+import mongo from "../assets/techStack/mongo.png";
 import Skill from "./Skill";
 
-const skill = [html, css, git, Js, node, react, vite, sql, postgres];
+const skill = [html, css, git, Js, node, react, bootstrap, postgres, mongo];
 
 function Habilidades() {
     return (

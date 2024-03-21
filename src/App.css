@@ -34,7 +34,9 @@ a {
 .subtitle {
     font-size: 2.25rem;
 }
-
+.aux {
+    font-size: 1.25rem;
+}
 .about {
     text-align: justify;
     font-size: 0.9rem;
@@ -44,7 +46,7 @@ a {
     border-bottom: 5px solid var(--pink) !important;
 }
 .logo {
-    max-height: 200px;
+    max-height: 160px;
     padding: 1.5em;
     will-change: filter;
     transition: filter 300ms;

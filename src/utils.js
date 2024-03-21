@@ -1,10 +1,31 @@
 export const proyectos = [
     {
+        name: "Rolling Coffee",
+        desc: "Proyecto para registrar productos de una cafeteria. (Aun en desarrollo)",
+        repo: "https://github.com/cacho-medina/rolling-coffee",
+        url: "https://rolling-coffee.netlify.app/",
+        img: "./src/assets/recetas.jpg",
+    },
+    {
         name: "Blog de Recetas",
         desc: "Proyecto en el que podes registrar y visualizar tus recetas favoritas. (Aun en desarrollo)",
         repo: "https://github.com/cacho-medina/blog-de-recetas",
         url: "https://blog-de-recetas.vercel.app/",
         img: "./src/assets/recetas.jpg",
+    },
+    {
+        name: "Conferencias Buenos Aires",
+        desc: "Proyecto fullstack para administrar el registro de oradores y espectadores para conferencia en Buenos Aires",
+        repo: "https://github.com/cacho-medina/proyecto-final-cac",
+        url: "https://www.youtube.com/watch?v=LNB4lHHNFQA&t=86s",
+        img: "./src/assets/ba.jpg",
+    },
+    {
+        name: "Trendy Shop",
+        desc: "Trendy Shop es un proyecto de una tienda virtual donde podés navegar a través de los productos en tendencia o buscarlos según su categorí",
+        repo: "https://github.com/Henry-PF/ecommerce-admin",
+        url: "https://www.youtube.com/watch?v=H1kmQmUvA4E&t=1s",
+        img: "./src/assets/trendy.png",
     },
     {
         name: "Web de noticias",
@@ -28,13 +49,6 @@ export const proyectos = [
         img: "./src/assets/abogado.jpg",
     },
     {
-        name: "Trendy Shop",
-        desc: "Trendy Shop es un proyecto de una tienda virtual donde podés navegar a través de los productos en tendencia o buscarlos según su categorí",
-        repo: "https://github.com/Henry-PF/ecommerce-admin",
-        url: "https://www.youtube.com/watch?v=H1kmQmUvA4E&t=1s",
-        img: "./src/assets/trendy.png",
-    },
-    {
         name: "Anime Heaven",
         desc: "Anime Heaven es una tienda online diseñada para los fanáticos del anime",
         repo: "",
@@ -48,13 +62,7 @@ export const proyectos = [
         url: "https://r-parrillada.vercel.app/",
         img: "./src/assets/parrilla.png",
     },
-    {
-        name: "Conferencias Buenos Aires",
-        desc: "Proyecto fullstack para administrar el registro de oradores y espectadores para conferencia en Buenos Aires",
-        repo: "https://github.com/cacho-medina/proyecto-final-cac",
-        url: "https://www.youtube.com/watch?v=LNB4lHHNFQA&t=86s",
-        img: "./src/assets/ba.jpg",
-    },
+
     {
         name: "Rolling Soft",
         desc: "Rolling Soft es una tienda online donde podes encontrar tus juegos favoritos a un precio de locos",

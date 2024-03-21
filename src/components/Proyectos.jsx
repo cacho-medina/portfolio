@@ -10,7 +10,7 @@ function Proyectos() {
             <p className="text-orange">
                 ||Estos son algunos de mis recientes proyectos
             </p>
-            <div className="row justify-content-center my-2">
+            <div className="row justify-content-center my-2 gap-3">
                 {proyectos.map((item, index) => (
                     <ItemProyecto key={index} proyecto={item} />
                 ))}

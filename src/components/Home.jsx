@@ -5,14 +5,28 @@ import Proyectos from "./Proyectos";
 function Home() {
     return (
         <Container className="grow">
-            <section className="vh-100 d-flex flex-column justify-content-center align-items-center" id="inicio">
-                <p className="text-pink m-0">👋Hola, me llamo</p>
+            <section
+                className="vh-100 d-flex flex-column justify-content-center align-items-center"
+                id="inicio"
+            >
+                <p className="text-pink m-0 aux">👋Hola, me llamo</p>
                 <h1 className="m-0 title fw-bold">Joaquin Medina</h1>
-                <h3 className="text-orange m-0 title text-center">
+                <h2 className="text-orange m-0 title text-center">
                     Frontend Developer
-                </h3>
+                </h2>
+                {/* <a
+                    href="https://drive.google.com/file/d/15lE_QYy68khI8P6H5FyPvTFso-ezGu31/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-danger"
+                >
+                    CV
+                </a> */}
             </section>
-            <section className="d-flex flex-column align-items-center" id="about">
+            <section
+                className="d-flex flex-column align-items-center"
+                id="about"
+            >
                 <h2 className="subtitle d-inline-block border-pink">About</h2>
                 <p className="my-4 about fw-medium px-1">
                     Soy Joaquin Medina, un entusiasta de la programación con una
@@ -34,7 +48,10 @@ function Home() {
                     (Upper Intermediate).
                 </p>
             </section>
-            <section className="d-flex flex-column align-items-center my-2" id="stack">
+            <section
+                className="d-flex flex-column align-items-center my-2"
+                id="stack"
+            >
                 <Habilidades />
             </section>
             <section
